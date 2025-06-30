@@ -8,7 +8,7 @@ Such inclusions include:
 As far as little interactive elements, I wanted some LEDS that go around the outside.
 Kinda like
 
-![Steelcon 2024 Kids Track Badge](Journal/Images/steelcon-badge.png)
+![Steelcon 2024 Kids Track Badge](Journal/Images/steelcon-badge.jpg)
 
 But with 8 LEDs instead of 6 (for all 8 data lines obviously... Or is it 7? do you count from 0 to 7 or 1 to 8, hmmm)
 
