@@ -8,7 +8,7 @@ Such inclusions include:
 As far as little interactive elements, I wanted some LEDS that go around the outside.
 Kinda like
 
-[[PHOTO MISSING OF STEELCON KIDS TRACK 2024 BADGE]]
+![Steelcon 2024 Kids Track Badge](Journal/Images/steelcon-badge.png)
 
 But with 8 LEDs instead of 6 (for all 8 data lines obviously... Or is it 7? do you count from 0 to 7 or 1 to 8, hmmm)
 
@@ -21,7 +21,7 @@ All Icons are from [@hackclub/icons](https://icons.hackclub.com) because while l
 
 ## First Attempt:
 
-[[IMAGE OF FIRST TEXT ATTEMPT]]
+![Text V1](Journal/Images/text-v1.png)
 
 While I enjoyed the simplicity of this approach, I decided to redesign because:
 a) It doesn't really describe me and my personality
@@ -29,7 +29,7 @@ b) It would very easily get lost in the busyness of the camp.
 
 ## Second Attempt
 
-[[IMAGE OF SECOND TEXT ATTEMPT]]
+![Text V2](Journal/Images/text-v2.png)
 
 The main differences are:
 - Centering
