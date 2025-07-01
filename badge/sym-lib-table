@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS7250QP")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS7250QP/2025-07-01_20-51-54.kicad_sym")(options "")(descr ""))
+  (lib (name "6502ConferenceBadge")(type "KiCad")(uri "${KIPRJMOD}/libs/6502ConferenceBadge/6502ConferenceBadge.kicad_sym")(options "")(descr ""))
+)

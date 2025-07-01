@@ -68,3 +68,9 @@ The Typical Application Configuration is below:
 
 Meaning it needs 2 resistors and 2 capacitors.
 
+I had to go footprint and symbol hunting for the TPS7250QP. I could have done it myself but then I'll be forever doubing my choice of footprint.
+
+I now need to go hunting for 6502 symbols because Kicad doesn't already have one. But I will probably just make them myself as it's a standard DIP
+
+![W65C02S Symbol](Journal/Images/W65C02S-symbol.png)
+
