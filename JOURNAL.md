@@ -37,3 +37,34 @@ The main differences are:
 - A row of icons describing my hobbies and major features (rainbow = lgbtq, code = programming, image = photography)
 
 I wanted a ring of icons, but I ran out of things that describe me 😭, and I'm much happier with this anyway (it's not like anyone will look tbh)
+
+# 1st of July 2025
+
+Now that I know what the center looks like and a bit of my specs, I can start working on the Schematic.
+This is optimised for looks and size over price.
+
+I also realised that I need to provide a 5V voltage rail for my chips, To do this, I settled on a 9V battery and then voltage regulating it down to 5V. I'll leave the battery holder off the PCB since this is a pin badge of sorts
+
+The specific parts I have gone for are:
+- W65C02 (CPU)
+- W65C22S6TPG (VIA)
+- AT28C256 (EEPROM/ROM)
+- AS6C62256 (RAM)
+- Red LEDs
+- 1Mhz Clock IC
+
+I however need to size my Voltage regulator properly, to do this I found the datasheets for all my parts and started adding!
+
+CPU: 1.5mA (I think?)
+VIA: 0.5mA
+ROM: 10mA
+RAM: 15mA
+
+So like, not too bad and a 150mA regulator should easily be able to do it.
+Specifically I chose the [TPS7250QP](https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7250QP) because it's the closest equivalent that mouser had. Although I'm not a fan of the number of support components
+
+The Typical Application Configuration is below:
+![TPS7250QP](Journal/Images/TPS7250QP.png)
+
+Meaning it needs 2 resistors and 2 capacitors.
+
