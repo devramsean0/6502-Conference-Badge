@@ -74,3 +74,14 @@ I now need to go hunting for 6502 symbols because Kicad doesn't already have one
 
 ![W65C02S Symbol](Journal/Images/W65C02S-symbol.png)
 
+# 2nd of July 2025
+Time to actually do the basic 6502 routing (connecting all the correct pins to power and ground and stuff)
+
+Specifically this involves the following baseline connections for the CPU to work:
+- VDD
+- VSS
+- RDY (Ready) - Needs to be High for the CPU to be enabled
+- BE (Bus Enable) - Needs to be High for the CPU to output data on the bus
+- SOB (Set Overflow) - Not recommened for new designs, so is held high as the datasheet suggests.
+- RESB (Reset) - Should be held high, but pulled low to reset. This is done with a 1k resistor to 5V and a button to GND in my design
+
