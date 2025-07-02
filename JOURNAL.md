@@ -132,3 +132,21 @@ I then had a thought, What if I use a resistor network, and significantly cut do
 ![Output LEDS](Journal/Images/output-leds.png)
 
 
+And now for that final BUS device, the RAM chip. I chose the AS6C62256 because it's a known quantity with the 6502.
+
+The footprint I cooked up is below\
+![AS6C62256](Journal/Images/AS6C62256-symbol.png)
+
+I also fixed an issue where I accidently connected VSS to 5V and VDD to GND where they should be reversed on the VIA
+
+I then realised that there are a few issues with my current design:
+- It is becoming too big and heavy for a pin badge
+- It is pretty much identical to Ben Eaters design, in both theory and schematic
+- There isn't anything unique or exciting about it.
+
+To solve this issue (after talking to Marios on the HC Slack), I came up with the following idea:
+- Move to a lanyard form factor/design (also allowing me to stick the 9V battery to the back)
+- Try and add a i2c device like a temp probe, or a adc for like a photoresistor to the design)
+
+And to be clear, I've been trying to learn from the datasheets as I go, but they don't cover information like address ranges and such and I'm new to all of this.
+
