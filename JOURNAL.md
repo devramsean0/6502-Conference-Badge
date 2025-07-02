@@ -85,3 +85,12 @@ Specifically this involves the following baseline connections for the CPU to wor
 - SOB (Set Overflow) - Not recommened for new designs, so is held high as the datasheet suggests.
 - RESB (Reset) - Should be held high, but pulled low to reset. This is done with a 1k resistor to 5V and a button to GND in my design
 
+![W65C02S/CPU](Journal/Images/W65C02S-core-layout.png)
+
+I also decided to redesign the Voltage Regulator as the messyness of the symbol was really annoying me :sob:) 
+
+![TPS7250QP Symbol](Journal/Images/TPS7250QP-symbol.png)
+
+And after a little bit of reorg, I got this! (Isn't this so much more readable :p)
+
+![TPS7250QP Fixed](Journal/Images/TPS7250QP-fixed.png)
