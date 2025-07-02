@@ -122,5 +122,13 @@ And minus the LEDs and buttons, this is the VIA design!
 
 ![WC65C22](Journal/Images/W65C22.png)
 
+And here's a little progress check of the schematic and time:\
 ![Progress Check 1](Journal/Images/schematic-progress-check-1.png)\
 The total time I have spent on it so far is: 4h 50mins
+
+The next job was to add the 8 LEDS to the VIA, this was obviously very easy, it's just 8 LEDS and resistors.
+I then had a thought, What if I use a resistor network, and significantly cut down on the space requirement. Which is what I did
+
+![Output LEDS](Journal/Images/output-leds.png)
+
+
