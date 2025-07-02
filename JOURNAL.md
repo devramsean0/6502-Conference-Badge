@@ -94,3 +94,18 @@ I also decided to redesign the Voltage Regulator as the messyness of the symbol 
 And after a little bit of reorg, I got this! (Isn't this so much more readable :p)
 
 ![TPS7250QP Fixed](Journal/Images/TPS7250QP-fixed.png)
+
+At this point, I decided just to make all my IC symbols myself. This made the process more challenging, but also meant that it would be consistent as I doubt KiCad has pre-baked symbols for these chips.
+
+Like this one for the AT28C256 ROM chip:
+
+![AT28C256](Journal/Images/AT28C256-symbol.png)
+
+As part of the ROM element of the design I also needed a NAND gate to help with memory addressing. I chose the SN74HC00N for this due to it's low cost and high avaliability at Mouser.\
+I elected not to make a custom symbol for this, as the Kicad one is sufficient.
+
+The for-now completed ROM circuitry looks like:
+![AT28C256](Journal/Images/AT28C256.png)
+
+I would also like to point out that I have downloaded any datasheets for chips used to the Datasheets directory in this repo.
+
