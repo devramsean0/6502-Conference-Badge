@@ -105,7 +105,22 @@ As part of the ROM element of the design I also needed a NAND gate to help with 
 I elected not to make a custom symbol for this, as the Kicad one is sufficient.
 
 The for-now completed ROM circuitry looks like:
+
 ![AT28C256](Journal/Images/AT28C256.png)
 
 I would also like to point out that I have downloaded any datasheets for chips used to the Datasheets directory in this repo.
 
+So, we now have the CPU and the Program Storage. Next, we need our outputs and inputs.
+To do this, I am going to use a VIA (Versatile Interface Adapter). This is the chip I found earlier, and will handle the memory addresses and data lines and stuff like that.
+
+I do need to make my own footprint though.
+![WC65C22 Symbol](Journal/Images/W65C22-symbol.png)
+
+I chose to follow Ben Eaters Advice on not being overly selective on memory addresses, This is because the only other bus device I need is the RAM in this case, and it saves significant cost and space which is important for the badge)
+
+And minus the LEDs and buttons, this is the VIA design!
+
+![WC65C22](Journal/Images/W65C22.png)
+
+![Progress Check 1](Journal/Images/schematic-progress-check-1.png)\
+The total time I have spent on it so far is: 4h 50mins
