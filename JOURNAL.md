@@ -185,3 +185,22 @@ block-beta
 (Key differenciator being more RAM space, but would also allow me to reprogram the address space if and when I need it, giving me more flexibility.
 I also chose to leave some address space unused still because I want to try and connect an i2c device like a temp probe or similar, but have not looked into the requirements yet.
 
+## The rest
+Okay, so I finished up the RAM setup using the static address spacing.
+
+![AS6C62256](Journal/Images/AS6C62256.png)
+
+I then went looking for CPLD or similar device, and after searching "connecting a CPLD to a 6502" I got suggested [this article](https://www.hackster.io/michael-cartwright/address-decoding-for-6502-using-a-pld-0d72ee), which suggests using the Microchip ATF22V10C. Specifically the 7.5ns delay version.
+I found this chip for 2.39 GBP on Mouser, which while more than the NAND gates is not significantly more considering the flexibility it provides.
+
+It is also really freaking easy to setup which is nice. but ofcourse no symbol exists by default (because why would it :heavysob:)
+
+![ATF22V10C Symbol](Journal/Images/ATF22V10C-symbol.png)
+
+It even has enough IO for all the address lines, not just A2 -> A15, with 5 outputs. 
+
+![ATF22V10C](Journal/Images/ATF22V10C.png)
+
+So I also tidied up the logic gates around.
+
+![Tidied Up Schematic](Journal/Images/schematic-tidied-up.png)
