@@ -150,3 +150,38 @@ To solve this issue (after talking to Marios on the HC Slack), I came up with th
 
 And to be clear, I've been trying to learn from the datasheets as I go, but they don't cover information like address ranges and such and I'm new to all of this.
 
+# 3rd of July 2025
+## Time for some fundamentals
+After yesterdays revelations, I set out to actually learn more of the fundamentals behind my design.
+
+After a bit more watching, This is roughly how the current memory address space works:
+
+```mermaid
+block-beta
+	block
+		columns 1
+		ram["RAM: 0000 -> 3FFF"] unusedL["Unused: 4000 -> 5FFF"] io["IO: 6000 -> 600F"] unusedH["Unused: 7000 -> 7FFF"] rom["ROM: 8000 -> F000"]
+	end
+```
+
+As you can see, there are 2 address spaces that are unused. For the simplicity requirements of Ben's design, it makes perfect sense (due to the reduction in gates and therefore size) however, I think I can make some changes to remove the following "restrictions"
+- Half the RAM chip is unusable, which could limit the program executions (although unlikely)
+- The address alocation is based on gates not efficiency
+
+However, there are also some benefits:
+- ROM being at the top makes lots of sense compared to alternatives
+- RAM being at the bottom makes lots of sense for efficiency and similar reasons to the ROM.
+
+What I'm instead suggesting is that I use some form of PLD for address decoding, This would allow me to achieve a memory map like:
+
+```mermaid 
+block-beta
+        block
+                columns 1
+                ram["RAM: 0000 -> 5FFF"] io["IO: 6000 -> 600F"] unused["Unused: 7000 -> 7FFF"] rom["ROM: 8000 -> F000"]
+        end
+```
+
+(Key differenciator being more RAM space, but would also allow me to reprogram the address space if and when I need it, giving me more flexibility.
+I also chose to leave some address space unused still because I want to try and connect an i2c device like a temp probe or similar, but have not looked into the requirements yet.
+
