@@ -7733,6 +7733,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 88.9) (xy 31.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c076bbd9-ac58-4522-90f9-a61139c6056d")
+	)
+	(wire
+		(pts
 			(xy 97.79 97.79) (xy 100.33 97.79)
 		)
 		(stroke
@@ -9390,6 +9400,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8dc39bb-b79a-4f83-b3ce-6b073adbec92")
+	)
+	(label "INTERRUPT"
+		(at 21.59 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daa7a892-cd47-4c0c-9037-16bb6f6796f9")
 	)
 	(label "D5"
 		(at 181.61 44.45 0)

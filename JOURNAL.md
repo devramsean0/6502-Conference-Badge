@@ -217,7 +217,7 @@ I also debated some kind of onboard UART to USB adapter, but I do need to start 
 
 A bit of tinkering with the chip later, I got:
 
-![W65C51N](Journal/Inages/W65C51N.png)
+![W65C51N](Journal/Images/W65C51N.png)
 
 At this point I had (another) interesting idea, What if I embed a UART to USB chip directly on my board. This should have minimal cost of about 2 GBP, but makes it much more portable for a field.
 I found thee MCP2221 chip which meets these requirements, but I'm not quite sure how to wire it up, and since it's a stretch goal anyway, I'm not going to touch it.
