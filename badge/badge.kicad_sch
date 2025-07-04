@@ -6723,6 +6723,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 93.98) (xy 27.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e99f8b-1a72-4821-bdd0-f4d55f488c57")
+	)
+	(wire
+		(pts
 			(xy 27.94 127) (xy 31.75 127)
 		)
 		(stroke
@@ -7100,6 +7110,16 @@
 			(type default)
 		)
 		(uuid "4709dbff-90fb-40d2-a1d3-d19e37d725a1")
+	)
+	(wire
+		(pts
+			(xy 27.94 92.71) (xy 24.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab9cf44-ec45-4e27-b397-8035fba22bde")
 	)
 	(wire
 		(pts
@@ -7620,6 +7640,16 @@
 			(type default)
 		)
 		(uuid "ae3b0f19-bbb7-485c-a1f8-119f82101697")
+	)
+	(wire
+		(pts
+			(xy 31.75 93.98) (xy 27.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a2b6c1-ea68-4c2f-bfdf-bd92aa2dd07a")
 	)
 	(wire
 		(pts
@@ -13860,6 +13890,72 @@
 			(project ""
 				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 24.13 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e921783c-5e75-49a6-94f2-a7f0ca9293f9")
+		(property "Reference" "#PWR030"
+			(at 24.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 24.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 24.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "174f86f2-0fcb-4912-88fd-f60354180ea1")
+		)
+		(instances
+			(project "badge"
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
