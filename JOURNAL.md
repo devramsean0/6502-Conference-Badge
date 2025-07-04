@@ -204,3 +204,17 @@ It even has enough IO for all the address lines, not just A2 -> A15, with 5 outp
 So I also tidied up the logic gates around.
 
 ![Tidied Up Schematic](Journal/Images/schematic-tidied-up.png)
+
+# 4th of July 2025
+
+As I discussed originally, I wasn't going to add a serial port, however, adding one opens up interesting paradims for dynamically changing patterns.
+To do this, I just added a ACIA (W65C51N) without any of the voltage manipulation logic, as I'm planning to use UART instead of full RS232 for simplicity.
+
+![W65C51N Symbol](Journal/Images/W65C51N-symbol.png)
+
+I tied Chip Select 1 straight to GND, as the chip will be active when low, and since I have more granular control over my Chip Select 0, I can correctly toggle it anyway.
+I also debated some kind of onboard UART to USB adapter, but I do need to start being aware of the pure chip cost associated with this project. At this point I also decided to switch to more of a lanyard shape due to the weight.
+
+A bit of tinkering with the chip later, I got:
+
+![W65C51N](Journal/Inages/W65C51N.png)
