@@ -218,3 +218,19 @@ I also debated some kind of onboard UART to USB adapter, but I do need to start 
 A bit of tinkering with the chip later, I got:
 
 ![W65C51N](Journal/Inages/W65C51N.png)
+
+At this point I had (another) interesting idea, What if I embed a UART to USB chip directly on my board. This should have minimal cost of about 2 GBP, but makes it much more portable for a field.
+I found thee MCP2221 chip which meets these requirements, but I'm not quite sure how to wire it up, and since it's a stretch goal anyway, I'm not going to touch it.
+
+Now, I just realised that I forgot my clock :facepalm:
+
+This was really simple, and I chose to use the ECS-100A-010, The slow speed is a feature as it means I need to do less of my own delay logic so the LEDs don't give seizures or anything.
+
+![ECS-100A-010 Symbol](Journal/Images/ECS100A010-symbol.png)
+
+And since it doesn't require anything special, we can just connect 5v, GND and out.
+
+![ECS-100A-010](Journal/Images/ECS100A010.png)
+
+
+Next steps are to double check any other wiring. 

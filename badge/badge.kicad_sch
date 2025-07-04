@@ -1671,6 +1671,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "6502ConferenceBadge:ECS-100A-010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ECS-100A-010"
+				(at 7.874 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-100A-010_0_0"
+				(pin unspecified line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -1.27 270)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ECS-100A-010_0_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "6502ConferenceBadge:TPS7250QP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4057,6 +4193,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -6101,7 +6441,7 @@
 	)
 	(rectangle
 		(start 148.59 22.86)
-		(end 218.44 67.31)
+		(end 243.84 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -6134,6 +6474,18 @@
 			(type none)
 		)
 		(uuid 75e7318f-476e-40f2-96bf-97b5160a89b6)
+	)
+	(rectangle
+		(start 11.43 138.43)
+		(end 53.34 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88c816ae-ff2e-4e0e-b408-d1b9711fe33d)
 	)
 	(rectangle
 		(start 132.08 67.31)
@@ -6200,6 +6552,16 @@
 			)
 		)
 		(uuid "1f1d6cb1-126f-47b0-beb7-8d69f1a9c6ef")
+	)
+	(text "ECS-100A-010 / Clock"
+		(exclude_from_sim no)
+		(at 23.622 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "341fd4ed-c25d-4571-b338-9de9e4c052e6")
 	)
 	(text "WC65C22 / VIA"
 		(exclude_from_sim no)
@@ -6310,6 +6672,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d432d33-2829-4813-afc2-da014dd9cf88")
+	)
+	(no_connect
+		(at 30.48 165.1)
+		(uuid "8c000c84-9a6d-498d-b9f2-fbf89926a25c")
 	)
 	(no_connect
 		(at 50.8 93.98)
@@ -6644,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "39822ec7-164d-4d1b-8f25-32ddf2ff9f41")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3996610d-4eb0-43de-b25a-b64d68f4d934")
 	)
 	(wire
 		(pts
@@ -7507,6 +7883,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 157.48) (xy 22.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cf48bb-b821-44ca-8488-2c1bb50531fd")
+	)
+	(wire
+		(pts
 			(xy 229.87 86.36) (xy 224.79 86.36)
 		)
 		(stroke
@@ -7604,6 +7990,16 @@
 			(type default)
 		)
 		(uuid "f4364a32-2714-4ed5-a0e9-49c9944ee226")
+	)
+	(wire
+		(pts
+			(xy 209.55 35.56) (xy 218.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aff060-7177-4a0f-9b46-f3e5e43ed440")
 	)
 	(wire
 		(pts
@@ -7744,6 +8140,16 @@
 			(justify left bottom)
 		)
 		(uuid "09f5ec30-b302-4c7b-8c94-457fb694703f")
+	)
+	(label "UART_RxD"
+		(at 209.55 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a02bf23-b457-461e-9a8c-13d6cc9bd52d")
 	)
 	(label "A0"
 		(at 161.29 62.23 0)
@@ -8014,6 +8420,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f046a8a-6498-4c24-88f7-c272193755d9")
+	)
+	(label "CLK"
+		(at 30.48 149.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3197ccfd-b845-4ddb-857e-000decd9eb9c")
 	)
 	(label "D0"
 		(at 97.79 105.41 0)
@@ -8294,6 +8710,16 @@
 			(justify left bottom)
 		)
 		(uuid "6cbe38e2-8e09-4d83-8503-542b747019e4")
+	)
+	(label "UART_TxD"
+		(at 209.55 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "709e9742-329b-4648-9c5d-3475cad0da1f")
 	)
 	(label "A5"
 		(at 80.01 35.56 0)
@@ -9641,6 +10067,77 @@
 			(project ""
 				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 223.52 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15df0e89-13c8-4f6d-ae80-e677cfe054f6")
+		(property "Reference" "J1"
+			(at 222.885 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 222.885 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6249ea-89cf-4384-a58d-93379ec19f1a")
+		)
+		(pin "3"
+			(uuid "288eca48-8372-4202-b6f3-d8540d4503cb")
+		)
+		(pin "2"
+			(uuid "e5cdcee2-95ca-4bfc-b005-ff5928b663a9")
+		)
+		(instances
+			(project ""
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11521,6 +12018,80 @@
 		)
 	)
 	(symbol
+		(lib_id "6502ConferenceBadge:ECS-100A-010")
+		(at 30.48 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6b9505-1f2d-4afb-9937-a5c4bdba055d")
+		(property "Reference" "ECS-100A-010"
+			(at 44.45 152.3298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 154.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a8107b90-5906-48ae-b7b5-4ce844d7e44d")
+		)
+		(pin "1"
+			(uuid "0935eb3c-695c-4e2d-a6cd-fd6755acb689")
+		)
+		(pin "7"
+			(uuid "4770d2b3-f9d4-4e1b-94b1-2d494562123a")
+		)
+		(pin "14"
+			(uuid "c0569c1d-ca08-4b74-8033-c7999f6488b5")
+		)
+		(instances
+			(project ""
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "ECS-100A-010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 73.66 81.28 0)
 		(unit 1)
@@ -12242,6 +12813,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 218.44 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a7b57a-2ce5-4f8f-95e8-c2efe2ce1ecd")
+		(property "Reference" "#PWR04"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be471f8-d8b7-42b3-b037-f11ba9da0000")
+		)
+		(instances
+			(project "badge"
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12519,6 +13156,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 21.59 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c882420c-a505-4fd9-8bb3-c41c97154d3d")
+		(property "Reference" "#PWR029"
+			(at 21.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e56a793a-a6fe-4e4d-91c8-f7f1ed1d0448")
+		)
+		(instances
+			(project "badge"
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "6502ConferenceBadge:ATF22V10C")
 		(at 129.54 29.21 0)
 		(unit 1)
@@ -12724,6 +13427,72 @@
 			(project "badge"
 				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d418fdf5-18f0-4250-81f3-57e3a6dae77b")
+		(property "Reference" "#PWR028"
+			(at 38.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afa0e989-bb11-4b17-9724-50274b75902d")
+		)
+		(instances
+			(project "badge"
+				(path "/fa0ed09a-51e0-455c-851f-6bdd2d2f2109"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
