@@ -232,5 +232,30 @@ And since it doesn't require anything special, we can just connect 5v, GND and o
 
 ![ECS-100A-010](Journal/Images/ECS100A010.png)
 
-
 Next steps are to double check any other wiring. 
+I discovered that I wasn't properly holding my Interrupt pin high, so I connected it to my UART chip.
+
+Now, I'm going to work on assigning footprints. I need Wide DIP sockets, and through hole capacitors and resistors.
+
+# 5th of July 2025
+I couldn't find a compatible footprint for my 1.8432Mhz crystal, so I went looking for a different part on Mouser (and found one!). Specifically, I had to switch from a crystal to a clock oscillator.
+
+If we look at the W65C51N datasheet (the UART/ACIA chip), they suggest 2 different clock options:
+
+![W65C51N Clock Options](Journal/Images/W65C51N-ClockOptions.png)
+
+Which suggests that I can connect a clock oscillator just to the XTLI pin on the chip, This also has the sideaffect of meaning I need less passives (yay).
+
+
+![ECS-2100AX Symbol](Journal/Images/ECS2100AX-symbol.png)
+
+And it's a little cursed, but here's the fixed schematic
+
+![W65C51N Fixed](Journal/Images/W65C51N-fixed.png)
+
+I've been having issues finding through hole passives because of the various different sizes and the limited selection avaliable at many retailers.
+
+![Footprints 1](Journal/Images/Footprints-1.png)
+
+Is what I have so far, I'm struggling to find a 10uF Through Hole Tantylum (required by the voltage regulator).
+
