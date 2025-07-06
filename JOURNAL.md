@@ -270,3 +270,7 @@ I went and just got the mouser footprints for the clocks because I couldn't find
 
 AND DONE
 ![Footprints 3](Journal/Images/footprints-3.png)
+
+I have also now begun the process of layout for a lanyard style design, Specifically I have laid out the output chips, the clocks and output LEDs.
+
+![Outputs Layout](Journal/Images/layout-output.png)
