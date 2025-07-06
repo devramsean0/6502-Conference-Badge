@@ -274,3 +274,18 @@ AND DONE
 I have also now begun the process of layout for a lanyard style design, Specifically I have laid out the output chips, the clocks and output LEDs.
 
 ![Outputs Layout](Journal/Images/layout-output.png)
+
+And after a bit more work, I got my address lines feeding into both my CPU and address decoder, next step is data lines and clocks and intterupts and stuff.
+
+![Address Layout](Journal/Images/layout-address.png)
+
+Despite yaknow not actually finishing the routing, I decided to start messing with the fill zones.
+
+1. ![Plain Front](Journal/Images/layout-withplanes.png)
+2. ![Hatched Front (0 Rotation, No Islands)](Journal/Images/planes/front-1mm-0-noislands.png)
+3. ![Hatched (3mm) Front (45 Rotation, No islands)](Journal/Images/planes/front-3mm-45-noislands.png)
+4. ![Hatched (2mm) Front (45 Rotation, Islands)](Journal/Images/planes/front-2mm-45-islands.png)
+5. ![Final Front](Journal/Images/planes/front-final.png)
+
+I have however ran into an issue with routing, which means It may be a good idea to uh start again from scratch with the routing and parts placement.
+
