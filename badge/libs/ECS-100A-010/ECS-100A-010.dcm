@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-100A-010
+D 1 MHz XO (Standard) TTL Oscillator 5V 14-DIP, 4 Leads (Full Size, Metal Can)
+K
+F https://ecsxtal.com/store/pdf/ecs_100.pdf
+$ENDCMP
+#
+#End Doc Library

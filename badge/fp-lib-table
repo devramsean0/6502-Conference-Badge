@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECS-100A-010")(type "KiCad")(uri "${KIPRJMOD}/libs/ECS-100A-010")(options "")(descr ""))
+  (lib (name "ECS-2100AX")(type "KiCad")(uri "${KIPRJMOD}/libs/ECS-2100AX")(options "")(descr ""))
+)

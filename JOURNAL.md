@@ -259,3 +259,14 @@ I've been having issues finding through hole passives because of the various dif
 
 Is what I have so far, I'm struggling to find a 10uF Through Hole Tantylum (required by the voltage regulator).
 
+I did eventually find a capacitor that met my requirements (through hole, 10v) but it was almost 2 GBP on mouser. Specifically it's the [173D106X9020WWE3](https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/173D106X9020WWE3?).
+This took a good while of searching.
+
+![Footprints 2](Journal/Images/Footprints-2.png)
+
+Phew, almost there, just need the clocks now.
+
+I went and just got the mouser footprints for the clocks because I couldn't find the footprints on Kicad. 
+
+AND DONE
+![Footprints 3](Journal/Images/Footprints-3.png)

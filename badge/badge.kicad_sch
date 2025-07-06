@@ -9749,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 52.07 41.91 0)
 			(effects
 				(font
@@ -9817,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 147.32 0)
 			(effects
 				(font
@@ -10961,7 +10961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -11580,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 76.2 0)
 			(effects
 				(font
@@ -11838,7 +11838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECS-100A-010:ECS100A010"
 			(at 30.48 148.59 0)
 			(effects
 				(font
@@ -12043,7 +12043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECS-2100AX:ECS2100AX18432MHZ"
 			(at 196.85 27.94 0)
 			(effects
 				(font
@@ -12117,7 +12117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -12326,7 +12326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -12403,7 +12403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 137.16 0)
 			(effects
 				(font
@@ -12969,7 +12969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 127 0)
 			(effects
 				(font
@@ -13315,7 +13315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 96.52 0)
 			(effects
 				(font
@@ -13612,7 +13612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 217.17 86.36 0)
 			(effects
 				(font

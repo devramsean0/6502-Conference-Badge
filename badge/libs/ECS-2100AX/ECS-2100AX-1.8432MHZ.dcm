@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-2100AX-1.8432MHZ
+D Standard Clock Oscillators DIP-8 5V 1.8432MHz
+K
+F https://eu.mouser.com/datasheet/2/122/ecs-2100x-1084611.pdf
+$ENDCMP
+#
+#End Doc Library
